@@ -1,0 +1,173 @@
+[
+      {
+        "id": "1",
+        "courseName": "Web Development Bootcamp",
+        "description": "Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.",
+        "price": "$299",
+        "duration": "12 weeks",
+        "schedule": "Monday to Friday, 9am - 5pm",
+        "language": "English",
+        "courseType": "Online",
+        "courseLocation": "Online",
+        "level": "Beginner",
+        "category": "STEM",
+        "instructor": {
+          "name": "John Smith",
+          "background": "Full-stack developer with 10 years of experience",
+          "email": "john@example.com",
+          "phone": "555-555-5555"
+        }
+      },
+      {
+        "id": "2",
+        "courseName": "Data Science Fundamentals",
+        "description": "Introduction to data science concepts, including data analysis, visualization, and machine learning. Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.",
+        "price": "$199",
+        "duration": "8 weeks",
+        "schedule": "Tuesday and Thursday, 6pm - 8pm",
+        "language": "English",
+        "courseType": "Offline",
+        "courseLocation": "New York City",
+        "level": "Intermediate",
+        "category": "STEM",
+        "instructor": {
+          "name": "Emily Johnson",
+          "background": "Data scientist at a leading tech company",
+          "email": "emily@example.com",
+          "phone": "555-987-6543"
+        }
+      },
+      {
+        "id": "3",
+        "courseName": "Python Programming",
+        "description": "Master Python programming language from basics to advanced concepts. Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js. Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.",
+        "price": "$249",
+        "duration": "10 weeks",
+        "schedule": "Monday and Wednesday, 7pm - 9pm",
+        "language": "English",
+        "courseType": "Online",
+        "courseLocation": "Online",
+        "level": "Advanced",
+        "category": "STEM",
+        "instructor": {
+          "name": "Michael Brown",
+          "background": "Software engineer with expertise in Python development",
+          "email": "michael@example.com",
+          "phone": "555-123-4567"
+        }
+      },
+      {
+        "id": "4",
+        "courseName": "Introduction to Machine Learning",
+        "description": "Get started with the fundamentals of machine learning and predictive modeling. Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js. Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.",
+        "price": "$179",
+        "duration": "6 weeks",
+        "schedule": "Saturday, 10am - 12pm",
+        "language": "English",
+        "courseType": "Offline",
+        "courseLocation": "San Francisco",
+        "level": "Intermediate",
+        "category": "STEM",
+        "instructor": {
+          "name": "Jessica Adams",
+          "background": "Machine learning engineer and researcher",
+          "email": "jessica@example.com",
+          "phone": "555-789-0123"
+        }
+      },
+      {
+        "id": "5",
+        "courseName": "Digital Marketing Essentials",
+        "description": "Learn the core concepts and strategies of digital marketing. Learn full-stack web development with HTML, CSS, JavaScript, Node.js, and React.js.",
+        "price": "$149",
+        "duration": "4 weeks",
+        "schedule": "Tuesday and Thursday, 7pm - 9pm",
+        "language": "English",
+        "courseType": "Online",
+        "courseLocation": "Online",
+        "level": "Beginner",
+        "category": "STEM",
+        "instructor": {
+          "name": "David Miller",
+          "background": "Digital marketing expert with hands-on experience",
+          "email": "david@example.com",
+          "phone": "555-456-7890"
+        }
+      },
+      {
+        "id": "6",
+        "courseName": "Spanish Language Basics",
+        "description": "Beginner's course to learn basic Spanish language skills.",
+        "price": "$129",
+        "duration": "8 weeks",
+        "schedule": "Monday and Wednesday, 6pm - 8pm",
+        "language": "Spanish",
+        "courseType": "Offline",
+        "courseLocation": "Miami",
+        "level": "Beginner",
+        "category": "Language",
+        "instructor": {
+          "name": "Maria Garcia",
+          "background": "Native Spanish speaker with teaching experience",
+          "email": "maria@example.com",
+          "phone": "555-234-5678"
+        }
+      },
+      {
+        "id": "7",
+        "courseName": "Algebra Basics",
+        "description": "Foundational concepts in algebra for high school students.",
+        "price": "$99",
+        "duration": "6 weeks",
+        "schedule": "Monday and Wednesday, 4pm - 6pm",
+        "language": "English",
+        "courseType": "Offline",
+        "courseLocation": "Chicago",
+        "level": "Beginner",
+        "category": "Math",
+        "instructor": {
+          "name": "Jonathan Lee",
+          "background": "Mathematics teacher with 5 years of experience",
+          "email": "jonathan@example.com",
+          "phone": "555-111-2222"
+        }
+      },
+      {
+        "id": "8",
+        "courseName": "English Literature",
+        "description": "Study classic works of English literature and improve reading and analysis skills.",
+        "price": "$149",
+        "duration": "8 weeks",
+        "schedule": "Tuesday and Thursday, 3pm - 5pm",
+        "language": "English",
+        "courseType": "Online",
+        "courseLocation": "Online",
+        "level": "Intermediate",
+        "category": "English",
+        "instructor": {
+          "name": "Sarah Thompson",
+          "background": "English literature professor at a prestigious university",
+          "email": "sarah@example.com",
+          "phone": "555-333-4444"
+        }
+      },
+      {
+        "id": "9",
+        "courseName": "Introduction to Physics",
+        "description": "Basic principles of physics including mechanics, electricity, and magnetism.",
+        "price": "$129",
+        "duration": "10 weeks",
+        "schedule": "Wednesday and Friday, 5pm - 7pm",
+        "language": "English",
+        "courseType": "Offline",
+        "courseLocation": "Los Angeles",
+        "level": "Beginner",
+        "category": "Physics",
+        "instructor": {
+          "name": "Robert Anderson",
+          "background": "Physics professor with a passion for teaching",
+          "email": "robert@example.com",
+          "phone": "555-777-8888"
+        }
+      }
+    ]
