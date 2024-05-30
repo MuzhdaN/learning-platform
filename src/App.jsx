@@ -16,7 +16,7 @@ export default function App() {
 
 
   const handleAddCourse = async (newCourseData) => {
-    const res = await fetch('/api/courses', {
+    const res = await fetch('https://mycourses-backend.onrender.com/courses', {
       method: 'POST', 
       headers: {
         'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ export default function App() {
 
   const editCourse = async (courseData) => {
     // console.log(courseData.id)
-    const res = await fetch(`/api/courses/${courseData.id}`, {
+    const res = await fetch(`https://mycourses-backend.onrender.com/courses/${courseData.id}`, {
       method: 'PUT', 
       headers: {
         'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ export default function App() {
 
 
   const deleteCourse = async (id) => {
-    const res = await fetch(`/api/courses/${id}`, {
+    const res = await fetch(`https://mycourses-backend.onrender.com/courses/${id}`, {
       method: 'DELETE',
     })
     return;

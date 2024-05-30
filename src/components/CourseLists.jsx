@@ -9,9 +9,11 @@ const CourseLists = ({isHome = false}) => {
 
     useEffect(() => {
         const fetchCoursesData = async() =>{
-            const apiURl = isHome ? '/api/courses/?_limit=3': '/api/courses';
+            const apiURl = isHome ? 'https://mycourses-backend.onrender.com/courses/?_limit=3'
+                : 'https://mycourses-backend.onrender.com/courses';
             try {
                 const response = await fetch(apiURl);
+                console.log(response)
                 const data = await response.json();
                 setCoursesData(data);
             } catch (error) {

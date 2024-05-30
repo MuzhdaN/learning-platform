@@ -136,7 +136,7 @@ const CourseInfoPage = ({deleteCourse}) => {
 }
 
 const courseLoader = async ({params}) => {
-    const res = await fetch (`/api/courses/${params.id}`);
+    const res = await fetch (`https://mycourses-backend.onrender.com/courses/${params.id}`);
     const data = await res.json();
     return data;
 }
