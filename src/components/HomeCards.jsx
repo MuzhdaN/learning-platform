@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Card from './Card'
 
 const HomeCards = () => {
@@ -12,12 +13,12 @@ const HomeCards = () => {
                 <p className="mt-2 mb-4">
                     Find the perfect course to expand your knowledge
                 </p>
-                <a
+                <Link
                   to="/courses"
                   className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
                 >
                     Browse Courses
-                </a>
+                </Link>
             </Card>
             <Card bg='bg-violet-100'>
                 <h2 className="text-2xl font-bold">
@@ -26,12 +27,12 @@ const HomeCards = () => {
                 <p className="mt-2 mb-10">
                   Share your expertise and add your course
                 </p>
-                <a
+                <Link
                   to="/add-course"
                   className="inline-block bg-violet-500 text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
                 >
                   Add Course
-                </a>
+                </Link>
             </Card>
         </div>
       </div>

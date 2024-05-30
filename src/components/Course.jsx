@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MdLocationPin } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const Course = ({course}) => {
@@ -36,7 +37,7 @@ const Course = ({course}) => {
             {showFullDescription ? 'less' : 'More'}
           </button>
 
-          <h3 className="text-violet-500 mb-2"> {course.price} / Month </h3>
+          <h3 className="text-violet-500 mb-2"> {course.fee} / Month </h3>
 
           <div className="border border-gray-100 mb-5"></div>
 
@@ -45,12 +46,12 @@ const Course = ({course}) => {
               <MdLocationPin className="inline text-lg mb-1 mr-1" />
               {course.courseLocation}
             </div>
-            <a
+            <Link
               to={`/courses/${course.id}`}
               className ="h-[36px] bg-violet-500 hover:bg-violet-600 text-white px-4 py-2 rounded-lg text-center text-sm"
             >
             Read More
-            </a>
+            </Link>
           </div>
       </div>
     </div>
