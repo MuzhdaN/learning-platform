@@ -2,6 +2,9 @@
 
 Live Project [here](https://mycoursess.netlify.app/)
 
+![Screenshot 2024-05-30 173251](https://github.com/MuzhdaN/learning-platform/assets/79607397/cdf88722-6a70-43f5-8d47-83f96e8b0097)
+
+
 The idea for this website came from my childhood. Back then, finding places to learn STEM subjects or languages in our country was quite a task.You had to go from one place to another, hoping they offered the courses you wanted. It was a hassel! though my mom would go each one of them and would enroll us to different courses :).
 
 With this platform, anyone can share the courses they teach, making it easy for learners to discover them., whether its offline or online. Whether you're passionate about math, science, technology, or languages, you'll find something for you here. A place where teachers and learners can connect effortlessly. No more endless searching or missed opportunities. Just learning made simple."
@@ -59,3 +62,4 @@ Repo Backend [here](https://github.com/MuzhdaN/learning-platform-backend)
 
 - <a href="https://www.flaticon.com/free-icons/course" title="course icons">Course icons created by Freepik - Flaticon</a>
 - [Loader](https://www.davidhu.io/react-spinners/storybook/?path=/docs/pacmanloader--main)
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://mycoursess.netlify.app/)
